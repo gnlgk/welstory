@@ -1,0 +1,31 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-right: 5rem;
+        a {
+            color: #ff5624;
+        }
+    }
+    .nav-links {
+        margin-left: 5rem;
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    }
+}
